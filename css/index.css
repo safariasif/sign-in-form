@@ -1,0 +1,129 @@
+@import url("https://fonts.google.com/specimen/Roboto+Condensed?query=roboto");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #f8f9fd;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contianer {
+  max-width: 350px;
+  padding: 45px 35px;
+  background: #f8f9fd;
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 0%,
+    rgb(244, 247, 251) 100%
+  );
+  margin: 150px auto;
+  border-radius: 40px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+}
+.header {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(16, 137, 211);
+  margin-bottom: 20px;
+}
+form input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+  outline: 0;
+}
+form input::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+
+form input::placeholder {
+  color: rgb(170, 170, 170);
+}
+form input:focus {
+  outline: 0;
+  border-inline: 2px solid #12b1d1;
+}
+.forget-password {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: block;
+  margin-left: 10px;
+}
+.forget-password a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #0099ff;
+}
+form input[type="submit"] {
+  background: linear-gradient(
+    45deg,
+    rgb(16, 137, 211) 0%,
+    rgb(18, 177, 209) 100%
+  );
+  color: white;
+  padding-block: 15px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+form input[type="submit"]:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+form input[type="submit"]:active {
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+  transform: scale(0.95);
+}
+.social-network {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
+.social-network .title {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+  font-weight: normal;
+}
+.social-network .icons {
+  margin-top: 5px;
+  justify-content: center;
+  gap: 15px;
+}
+.social-network .icons i {
+  background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(112, 112, 112) 100%);
+  border: 5px solid white;
+  color: white;
+  border-radius: 50%;
+  padding: 4px;
+  aspect-ratio: 1;
+  place-content: center;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 12px 10px -8px;
+  transition: all 0.2s ease-in-out;
+}
+.social-network .icons i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.social-network .icons i:active {
+  transform: scale(0.9);
+}
+.licence {
+  margin-top: 15px;
+}
+.licence a {
+  text-decoration: none;
+  color: #0099ff;
+  font-size: 9px;
+}
